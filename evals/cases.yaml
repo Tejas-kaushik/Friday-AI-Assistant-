@@ -1,0 +1,39 @@
+# Utterance -> which tool FRIDAY should reach for (or none).
+# Run this before every change. It is the difference between a wrapper and
+# something you can actually trust at 9am.
+- say: "what's the weather"
+  expect: get_weather
+- say: "do I need a coat"
+  expect: get_weather
+- say: "is it raining out"
+  expect: get_weather
+- say: "what time is it"
+  expect: get_time
+- say: "what's the date"
+  expect: get_time
+- say: "how long till nine"
+  expect: get_time
+- say: "what's going on in the world"
+  expect: get_world_news
+- say: "give me the headlines"
+  expect: get_world_news
+- say: "anything happening in the red sea"
+  expect: get_world_news
+- say: "who won the match last night"
+  expect: search_web
+- say: "what's the population of finland"
+  expect: search_web
+- say: "how much disk have I got left"
+  expect: get_system_info
+- say: "systems check"
+  expect: get_system_info
+- say: "work out whether I should switch my mortgage"
+  expect: deep_analysis
+- say: "think hard about this and tell me the best way to structure the garage"
+  expect: deep_analysis
+- say: "thanks"
+  expect: none
+- say: "shut up"
+  expect: none
+- say: "you're being annoying"
+  expect: none
