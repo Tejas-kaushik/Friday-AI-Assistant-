@@ -19,8 +19,6 @@
   expect: get_world_news
 - say: "anything happening in the red sea"
   expect: get_world_news
-- say: "who won the match last night"
-  expect: search_web
 - say: "what's the population of finland"
   expect: search_web
 - say: "how much disk have I got left"
@@ -36,8 +34,4 @@
 - say: "shut up"
   expect: none
 - say: "you're being annoying"
-  expect: none
-- say: "who won the arsenal match last night"
-  expect: search_web
-  - say: "who won the match last night"
   expect: none

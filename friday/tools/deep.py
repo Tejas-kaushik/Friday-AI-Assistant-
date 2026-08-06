@@ -1,4 +1,7 @@
 """The two-brain split.
+Explicit cues: "think hard", "work out", "figure out", "should I", "help me
+decide", "what's the best way". If the user says any of these, call this tool
+even if you believe you know the answer.
 
 Every conversational turn runs on the fast model. Anything needing real
 reasoning gets handed off as a background job: FRIDAY says "working on it" and
