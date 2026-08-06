@@ -37,3 +37,7 @@
   expect: none
 - say: "you're being annoying"
   expect: none
+- say: "who won the arsenal match last night"
+  expect: search_web
+  - say: "who won the match last night"
+  expect: none
